@@ -7,9 +7,7 @@
 
 def main():
     # get the user number as a string
-    print(
-        "This program displays all the numbers from 0 to the user's number squared."
-    )
+    print("This program displays all the numbers from 0 to the user's number squared.")
     user_num_string = input("Enter your integer: ")
 
     # initialize power_product to 0
@@ -24,13 +22,12 @@ def main():
             print("{} is not a positive integer".format(user_num_string))
         else:
             # otherwise while the counter is less than or equal to the user number:
-            for counter in range(user_num_int+1):
+            for counter in range(user_num_int + 1):
                 # multiply the counter to the factorial
                 power_product = counter**2
 
                 # display all the numbers from 0 to the user's number squared
                 print("{0}^2 = {1}".format(counter, power_product))
-
 
     except:
         # if the number is not an integer, then tell them their input is invalid
