@@ -23,7 +23,7 @@ def main():
         else:
             # otherwise while the counter is less than or equal to the user number:
             for counter in range(user_num_int + 1):
-                # multiply the counter to the factorial
+                # let the power_product be the counter squared
                 power_product = counter**2
 
                 # display all the numbers from 0 to the user's number squared
